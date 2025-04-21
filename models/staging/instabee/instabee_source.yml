@@ -1,0 +1,107 @@
+version: 2
+
+sources:
+  - name: instabee
+    description: Source data from the INSTABEE database
+    database: INSTABEE
+    schema: PUBLIC
+    tables:
+      - name: ORDERS
+        description: Main orders table
+        columns:
+          - name: ROW_ID
+            description: Unique row identifier
+            tests:
+              - not_null
+
+          - name: ORDER_ID
+            description: Order ID (not unique — multiple line items)
+            tests:
+              - not_null
+
+          - name: ORDER_DATE
+            description: Date of order
+
+          - name: SHIP_DATE
+            description: Date of shipment
+
+          - name: SHIP_MODE
+            description: Shipping method
+
+          - name: CUSTOMER_ID
+            description: Customer identifier
+
+          - name: CUSTOMER_NAME
+            description: Name of the customer
+
+          - name: SEGMENT
+            description: Customer segment
+
+          - name: COUNTRY
+            description: Country
+
+          - name: CITY
+            description: City
+
+          - name: STATE
+            description: State
+
+          - name: POSTAL_CODE
+            description: Postal code
+
+          - name: REGION
+            description: Region
+            tests:
+              - relationships:
+                  to: source('instabee', 'PEOPLE')
+                  field: REGION
+
+          - name: PRODUCT_ID
+            description: Product identifier
+
+          - name: CATEGORY
+            description: Product category
+
+          - name: SUB_CATEGORY
+            description: Product sub-category
+
+          - name: PRODUCT_NAME
+            description: Name of the product
+
+          - name: SALES
+            description: Sales amount
+
+          - name: QUANTITY
+            description: Quantity sold
+
+          - name: DISCOUNT
+            description: Discount applied
+
+          - name: PROFIT
+            description: Profit earned
+
+        tests:
+          - dbt_utils.unique_combination_of_columns:
+              combination_of_columns:
+                - ORDER_ID
+                - PRODUCT_ID
+                - ROW_ID
+      - name: RETURNS
+        description: Table of returned orders
+        columns:
+          - name: RETURNED
+            description: Flag indicating return status
+          - name: ORDER_ID
+            description: Foreign key to orders
+            tests:
+              - relationships:
+                  to: source('instabee', 'ORDERS')
+                  field: ORDER_ID
+
+      - name: PEOPLE
+        description: Regional manager mapping
+        columns:
+          - name: REGIONAL_MANAGER
+            description: Name of the regional manager
+          - name: REGION
+            description: Region managed
