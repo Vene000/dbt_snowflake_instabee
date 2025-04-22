@@ -41,10 +41,21 @@ jobs:
                 database: ${{ secrets.SNOWFLAKE_DATABASE }}
                 schema: ${{ secrets.SNOWFLAKE_SCHEMA }}
           EOF
+          cat ~/.dbt/profiles.yml  # For debugging
 
-      - name: Run dbt commands
-        run: |
-          rm -rf ./dbt_packages
-          dbt deps
-          dbt debug
-          dbt build --fail-fast
+- name: Run dbt commands
+  run: |
+    # Clean environment
+    rm -rf ./dbt_packages
+    rm -rf ~/.dbt/target
+    
+    # Install dependencies
+    dbt deps
+    
+    # Verify macro exists
+    echo "Checking macros..."
+    ls -la ./dbt_packages/dbt_utils/macros/*surrogate* || echo "Using local macro"
+    
+    # Run with debug
+    dbt debug
+    dbt build --fail-fast
