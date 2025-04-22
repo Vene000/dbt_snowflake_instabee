@@ -11,7 +11,7 @@
 renamed as (
 
     select 
-md5(cast(coalesce(cast(ORDER_ID as TEXT), '') || '-' || coalesce(cast(PRODUCT_ID as TEXT), '') || '-' || coalesce(cast(ROW_ID as TEXT), '') as TEXT)) as ORDER_LINE_ID,
+md5(concat(coalesce(cast(ORDER_ID as TEXT), ''), coalesce(cast(PRODUCT_ID as TEXT), ''), coalesce(cast(ROW_ID as TEXT), ''))) as ORDER_LINE_ID,
 ROW_ID,
 ORDER_ID,	
 ORDERDATE AS ORDER_DATE,
