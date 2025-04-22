@@ -1,5 +1,4 @@
 {% macro generate_surrogate_key(field_list) %}
-    {# Standard implementation matching dbt-utils #}
     {% set fields = [] %}
     {% for field in field_list %}
         {% set _ = fields.append(
