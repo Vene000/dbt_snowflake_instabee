@@ -5681,3 +5681,2051 @@ use warehouse COMPUTE_WH
 [0m14:14:28.572548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001845AB70680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001845AB70BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018450806C00>]}
 [0m14:14:28.572548 [debug] [MainThread]: Flushing usage events
 [0m14:14:29.114621 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:25:37.081020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001781B7C57F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001781EE679B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001781BD98920>]}
+
+
+============================== 14:25:37.097149 | dbd42d1c-f62d-4735-a547-19ef013e1b64 ==============================
+[0m14:25:37.097149 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:25:37.097149 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Venee\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'E:\\desk\\onedrive\\Desktop\\snowflake_instabee\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:25:37.303412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dbd42d1c-f62d-4735-a547-19ef013e1b64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001781E4C5C70>]}
+[0m14:25:37.482237 [debug] [MainThread]: Set downloads directory='C:\Users\Venee\AppData\Local\Temp\dbt-downloads-83qj3gnq'
+[0m14:25:37.482237 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m14:25:37.556469 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m14:25:37.556469 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m14:25:37.604033 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m14:25:37.604033 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m14:25:38.065870 [info ] [MainThread]: Installed from version 1.3.0
+[0m14:25:38.065870 [info ] [MainThread]: Up to date!
+[0m14:25:38.065870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'dbd42d1c-f62d-4735-a547-19ef013e1b64', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017820681820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001781EC16900>]}
+[0m14:25:38.065870 [debug] [MainThread]: Command `dbt deps` succeeded at 14:25:38.065870 after 1.20 seconds
+[0m14:25:38.065870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001781BC67140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178201138F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178204979B0>]}
+[0m14:25:38.065870 [debug] [MainThread]: Flushing usage events
+[0m14:25:38.514943 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:25:47.477819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38275FFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E385971400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E385971310>]}
+
+
+============================== 14:25:47.495932 | f2ffeb40-0cbd-41c6-b802-84b1b1d693cf ==============================
+[0m14:25:47.495932 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:25:47.497941 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Venee\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'E:\\desk\\onedrive\\Desktop\\snowflake_instabee\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:25:48.657828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38E75D9D0>]}
+[0m14:25:48.743135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38E426720>]}
+[0m14:25:48.743135 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m14:25:49.471071 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m14:25:50.001734 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:25:50.001734 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:25:50.075323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38D934710>]}
+[0m14:25:50.221693 [debug] [MainThread]: Wrote artifact WritableManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\manifest.json
+[0m14:25:50.221693 [debug] [MainThread]: Wrote artifact SemanticManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\semantic_manifest.json
+[0m14:25:50.252122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E390251CD0>]}
+[0m14:25:50.252122 [info ] [MainThread]: Found 14 models, 17 data tests, 3 sources, 591 macros
+[0m14:25:50.262462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E390039340>]}
+[0m14:25:50.266039 [info ] [MainThread]: 
+[0m14:25:50.266039 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:25:50.267949 [info ] [MainThread]: 
+[0m14:25:50.267949 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:25:50.272915 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_PC_DBT_DB'
+[0m14:25:50.422759 [debug] [ThreadPool]: Using snowflake connection "list_PC_DBT_DB"
+[0m14:25:50.422759 [debug] [ThreadPool]: On list_PC_DBT_DB: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "connection_name": "list_PC_DBT_DB"} */
+show terse schemas in database PC_DBT_DB
+    limit 10000
+[0m14:25:50.424507 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:25:51.080516 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.664 seconds
+[0m14:25:51.095252 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_PC_DBT_DB_DBT_'
+[0m14:25:51.111141 [debug] [ThreadPool]: Using snowflake connection "list_PC_DBT_DB_DBT_"
+[0m14:25:51.112214 [debug] [ThreadPool]: On list_PC_DBT_DB_DBT_: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "connection_name": "list_PC_DBT_DB_DBT_"} */
+show objects in PC_DBT_DB.DBT_ limit 10000;
+[0m14:25:51.112769 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:25:51.604441 [debug] [ThreadPool]: SQL status: SUCCESS 16 in 0.492 seconds
+[0m14:25:51.614538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38EB90BC0>]}
+[0m14:25:51.614538 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.my_first_dbt_model
+[0m14:25:51.614538 [info ] [Thread-1 (]: 1 of 14 START sql table model DBT_.my_first_dbt_model .......................... [RUN]
+[0m14:25:51.614538 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.snowflake_instabee.my_first_dbt_model'
+[0m14:25:51.614538 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.my_first_dbt_model
+[0m14:25:51.629281 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.my_first_dbt_model"
+[0m14:25:51.635026 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.my_first_dbt_model
+[0m14:25:51.681937 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.my_first_dbt_model"
+[0m14:25:51.681937 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.my_first_dbt_model"
+[0m14:25:51.681937 [debug] [Thread-1 (]: On model.snowflake_instabee.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.my_first_dbt_model"} */
+create or replace transient table PC_DBT_DB.DBT_.my_first_dbt_model
+         as
+        (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+    select 1 as id, 'Example record 1' as description
+    union all
+    select 2 as id, 'Example record 2' as description
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+        );
+[0m14:25:51.681937 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:25:52.963526 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.286 seconds
+[0m14:25:52.995288 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3858AEF00>]}
+[0m14:25:52.995288 [info ] [Thread-1 (]: 1 of 14 OK created sql table model DBT_.my_first_dbt_model ..................... [[32mSUCCESS 1[0m in 1.38s]
+[0m14:25:53.011093 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.my_first_dbt_model
+[0m14:25:53.013103 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.stg_instabee_orders
+[0m14:25:53.013103 [info ] [Thread-1 (]: 2 of 14 START sql view model DBT_.stg_instabee_orders .......................... [RUN]
+[0m14:25:53.013103 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.my_first_dbt_model, now model.snowflake_instabee.stg_instabee_orders)
+[0m14:25:53.013103 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.stg_instabee_orders
+[0m14:25:53.028364 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.stg_instabee_orders"
+[0m14:25:53.028364 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.stg_instabee_orders
+[0m14:25:53.032380 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:25:53.032380 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+select current_warehouse() as warehouse
+[0m14:25:53.121084 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.091 seconds
+[0m14:25:53.121084 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:25:53.121084 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+use warehouse pc_dbt_wh
+[0m14:25:53.232523 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.103 seconds
+[0m14:25:53.272314 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.stg_instabee_orders"
+[0m14:25:53.274320 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:25:53.276329 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+create or replace   view PC_DBT_DB.DBT_.stg_instabee_orders
+  
+   as (
+    with source as (
+
+    select * from INSTABEE.PUBLIC.ORDERS
+
+),
+
+renamed as (
+
+    select 
+md5(concat(coalesce(cast(ORDER_ID as TEXT), ''), coalesce(cast(PRODUCT_ID as TEXT), ''), coalesce(cast(ROW_ID as TEXT), ''))) as ORDER_LINE_ID,
+ROW_ID,
+ORDER_ID,	
+ORDERDATE AS ORDER_DATE,
+SHIPDATE AS SHIP_DATE,	
+SHIP_MODE,	
+CUSTOMER_ID,	
+CUSTOMER_NAME,	
+SEGMENT,
+COUNTRY,
+CITY,
+STATE,	
+POSTAL_CODE,	
+REGION,	
+PRODUCT_ID,	
+CATEGORY as PRODUCT_CATEGORY,	
+SUB_CATEGORY,	
+PRODUCT_NAME,	
+SALES,	
+QUANTITY,	
+DISCOUNT,	
+PROFIT
+
+
+    from source
+
+)
+
+select * from renamed
+  );
+[0m14:25:53.683261 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.411 seconds
+[0m14:25:53.683261 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:25:53.683261 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+use warehouse COMPUTE_WH
+[0m14:25:53.798918 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.104 seconds
+[0m14:25:53.802941 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3906EC470>]}
+[0m14:25:53.804953 [info ] [Thread-1 (]: 2 of 14 OK created sql view model DBT_.stg_instabee_orders ..................... [[32mSUCCESS 1[0m in 0.79s]
+[0m14:25:53.806963 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.stg_instabee_orders
+[0m14:25:53.808973 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.stg_instabee_people
+[0m14:25:53.808973 [info ] [Thread-1 (]: 3 of 14 START sql view model DBT_.stg_instabee_people .......................... [RUN]
+[0m14:25:53.808973 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.stg_instabee_orders, now model.snowflake_instabee.stg_instabee_people)
+[0m14:25:53.811396 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.stg_instabee_people
+[0m14:25:53.815471 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.stg_instabee_people"
+[0m14:25:53.816511 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.stg_instabee_people
+[0m14:25:53.819640 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:25:53.820680 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+select current_warehouse() as warehouse
+[0m14:25:53.985953 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.177 seconds
+[0m14:25:54.001884 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:25:54.001884 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+use warehouse pc_dbt_wh
+[0m14:25:54.081690 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m14:25:54.097709 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.stg_instabee_people"
+[0m14:25:54.097709 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:25:54.097709 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+create or replace   view PC_DBT_DB.DBT_.stg_instabee_people
+  
+   as (
+    with source as (
+
+    select * from INSTABEE.PUBLIC.PEOPLE
+
+)
+
+select * from source
+  );
+[0m14:25:54.341667 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.251 seconds
+[0m14:25:54.357416 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:25:54.357416 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+use warehouse COMPUTE_WH
+[0m14:25:54.438787 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.079 seconds
+[0m14:25:54.442809 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3906ECFE0>]}
+[0m14:25:54.444818 [info ] [Thread-1 (]: 3 of 14 OK created sql view model DBT_.stg_instabee_people ..................... [[32mSUCCESS 1[0m in 0.63s]
+[0m14:25:54.446828 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.stg_instabee_people
+[0m14:25:54.446828 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.stg_instabee_returns
+[0m14:25:54.446828 [info ] [Thread-1 (]: 4 of 14 START sql view model DBT_.stg_instabee_returns ......................... [RUN]
+[0m14:25:54.446828 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.stg_instabee_people, now model.snowflake_instabee.stg_instabee_returns)
+[0m14:25:54.446828 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.stg_instabee_returns
+[0m14:25:54.452672 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.stg_instabee_returns"
+[0m14:25:54.454679 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.stg_instabee_returns
+[0m14:25:54.458699 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:25:54.458699 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+select current_warehouse() as warehouse
+[0m14:25:54.548076 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.093 seconds
+[0m14:25:54.554103 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:25:54.556112 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+use warehouse pc_dbt_wh
+[0m14:25:54.658398 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.103 seconds
+[0m14:25:54.664432 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.stg_instabee_returns"
+[0m14:25:54.666442 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:25:54.668455 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+create or replace   view PC_DBT_DB.DBT_.stg_instabee_returns
+  
+   as (
+    WITH source AS (
+    SELECT * FROM INSTABEE.PUBLIC.RETURNS
+),
+
+deduplicated AS (
+    SELECT order_id, MAX(returned) AS returned
+    FROM source
+    GROUP BY order_id
+)
+
+SELECT * FROM deduplicated
+  );
+[0m14:25:54.901057 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.243 seconds
+[0m14:25:54.946481 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:25:54.946481 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+use warehouse COMPUTE_WH
+[0m14:25:55.060654 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.100 seconds
+[0m14:25:55.064675 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E382888440>]}
+[0m14:25:55.066685 [info ] [Thread-1 (]: 4 of 14 OK created sql view model DBT_.stg_instabee_returns .................... [[32mSUCCESS 1[0m in 0.62s]
+[0m14:25:55.068696 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.stg_instabee_returns
+[0m14:25:55.070706 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.my_second_dbt_model
+[0m14:25:55.070706 [info ] [Thread-1 (]: 5 of 14 START sql view model DBT_.my_second_dbt_model .......................... [RUN]
+[0m14:25:55.074142 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.stg_instabee_returns, now model.snowflake_instabee.my_second_dbt_model)
+[0m14:25:55.074142 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.my_second_dbt_model
+[0m14:25:55.078178 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.my_second_dbt_model"
+[0m14:25:55.080186 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.my_second_dbt_model
+[0m14:25:55.084203 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.my_second_dbt_model"
+[0m14:25:55.086211 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.my_second_dbt_model"
+[0m14:25:55.086211 [debug] [Thread-1 (]: On model.snowflake_instabee.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.my_second_dbt_model"} */
+create or replace   view PC_DBT_DB.DBT_.my_second_dbt_model
+  
+   as (
+    -- Use the `ref` function to select from other models
+
+select *
+from PC_DBT_DB.DBT_.my_first_dbt_model
+where id = 1
+  );
+[0m14:25:55.249666 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.168 seconds
+[0m14:25:55.249666 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39076C8F0>]}
+[0m14:25:55.249666 [info ] [Thread-1 (]: 5 of 14 OK created sql view model DBT_.my_second_dbt_model ..................... [[32mSUCCESS 1[0m in 0.18s]
+[0m14:25:55.249666 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.my_second_dbt_model
+[0m14:25:55.265645 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.dim_customers
+[0m14:25:55.265645 [info ] [Thread-1 (]: 6 of 14 START sql table model DBT_.dim_customers ............................... [RUN]
+[0m14:25:55.265645 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.my_second_dbt_model, now model.snowflake_instabee.dim_customers)
+[0m14:25:55.265645 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.dim_customers
+[0m14:25:55.265645 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.dim_customers"
+[0m14:25:55.265645 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.dim_customers
+[0m14:25:55.275941 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:25:55.275941 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+select current_warehouse() as warehouse
+[0m14:25:55.351942 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.074 seconds
+[0m14:25:55.353952 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:25:55.353952 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+use warehouse pc_dbt_wh_large
+[0m14:25:55.431750 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:25:55.435769 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.dim_customers"
+[0m14:25:55.437776 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:25:55.437776 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+create or replace transient table PC_DBT_DB.DBT_.dim_customers
+         as
+        (SELECT DISTINCT
+    customer_id,
+    customer_name,
+    segment
+FROM PC_DBT_DB.DBT_.stg_instabee_orders
+        );
+[0m14:25:56.884789 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.452 seconds
+[0m14:25:56.884789 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:25:56.884789 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+use warehouse COMPUTE_WH
+[0m14:25:56.964148 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m14:25:56.980258 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E390740800>]}
+[0m14:25:56.980258 [info ] [Thread-1 (]: 6 of 14 OK created sql table model DBT_.dim_customers .......................... [[32mSUCCESS 1[0m in 1.71s]
+[0m14:25:56.982266 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.dim_customers
+[0m14:25:56.982266 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.dim_products
+[0m14:25:56.982266 [info ] [Thread-1 (]: 7 of 14 START sql table model DBT_.dim_products ................................ [RUN]
+[0m14:25:56.982266 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.dim_customers, now model.snowflake_instabee.dim_products)
+[0m14:25:56.982266 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.dim_products
+[0m14:25:56.990028 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.dim_products"
+[0m14:25:56.990028 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.dim_products
+[0m14:25:56.994045 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:25:56.994045 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+select current_warehouse() as warehouse
+[0m14:25:57.059592 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.068 seconds
+[0m14:25:57.059592 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:25:57.059592 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+use warehouse pc_dbt_wh_large
+[0m14:25:57.139286 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:25:57.139286 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.dim_products"
+[0m14:25:57.155189 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:25:57.155189 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+create or replace transient table PC_DBT_DB.DBT_.dim_products
+         as
+        (WITH ranked_products AS (
+  SELECT
+    product_id,
+    product_name,
+    product_category,
+    sub_category,
+    ROW_NUMBER() OVER (
+      PARTITION BY product_id 
+      ORDER BY product_category NULLS LAST, sub_category NULLS LAST, product_name NULLS LAST
+    ) as rn
+  FROM PC_DBT_DB.DBT_.stg_instabee_orders
+  WHERE product_id IS NOT NULL
+  GROUP BY product_id, product_name, product_category, sub_category
+)
+
+SELECT
+  product_id,
+  product_name,
+  product_category,
+  sub_category
+FROM ranked_products
+WHERE rn = 1
+        );
+[0m14:25:58.262268 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.115 seconds
+[0m14:25:58.262268 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:25:58.278302 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+use warehouse COMPUTE_WH
+[0m14:25:58.358305 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.079 seconds
+[0m14:25:58.362371 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39073C7A0>]}
+[0m14:25:58.362371 [info ] [Thread-1 (]: 7 of 14 OK created sql table model DBT_.dim_products ........................... [[32mSUCCESS 1[0m in 1.38s]
+[0m14:25:58.364380 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.dim_products
+[0m14:25:58.366389 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.dim_regions
+[0m14:25:58.366389 [info ] [Thread-1 (]: 8 of 14 START sql table model DBT_.dim_regions ................................. [RUN]
+[0m14:25:58.366389 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.dim_products, now model.snowflake_instabee.dim_regions)
+[0m14:25:58.366389 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.dim_regions
+[0m14:25:58.374271 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.dim_regions"
+[0m14:25:58.374271 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.dim_regions
+[0m14:25:58.374271 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:25:58.374271 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+select current_warehouse() as warehouse
+[0m14:25:58.455437 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.073 seconds
+[0m14:25:58.457446 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:25:58.459455 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+use warehouse pc_dbt_wh_large
+[0m14:25:58.532442 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m14:25:58.532442 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.dim_regions"
+[0m14:25:58.548157 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:25:58.548157 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+create or replace transient table PC_DBT_DB.DBT_.dim_regions
+         as
+        (SELECT DISTINCT
+    r.region,
+    r.state,
+    p.regional_manager
+FROM PC_DBT_DB.DBT_.stg_instabee_orders r
+LEFT JOIN PC_DBT_DB.DBT_.stg_instabee_people p
+    ON r.region = p.region
+        );
+[0m14:25:59.956599 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.420 seconds
+[0m14:25:59.972716 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:25:59.972716 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+use warehouse COMPUTE_WH
+[0m14:26:00.051378 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.085 seconds
+[0m14:26:00.051378 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3907C98B0>]}
+[0m14:26:00.051378 [info ] [Thread-1 (]: 8 of 14 OK created sql table model DBT_.dim_regions ............................ [[32mSUCCESS 1[0m in 1.68s]
+[0m14:26:00.051378 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.dim_regions
+[0m14:26:00.051378 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.fact_sales
+[0m14:26:00.067356 [info ] [Thread-1 (]: 9 of 14 START sql table model DBT_.fact_sales .................................. [RUN]
+[0m14:26:00.067356 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.dim_regions, now model.snowflake_instabee.fact_sales)
+[0m14:26:00.069258 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.fact_sales
+[0m14:26:00.069258 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.fact_sales"
+[0m14:26:00.069258 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.fact_sales
+[0m14:26:00.069258 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:26:00.069258 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+select current_warehouse() as warehouse
+[0m14:26:00.146827 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.078 seconds
+[0m14:26:00.146827 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:26:00.162541 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+use warehouse pc_dbt_wh_large
+[0m14:26:00.226305 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.075 seconds
+[0m14:26:00.242138 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.fact_sales"
+[0m14:26:00.242138 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:26:00.242138 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+create or replace transient table PC_DBT_DB.DBT_.fact_sales
+         as
+        (WITH base AS (
+    SELECT
+        o.order_line_id,
+        o.order_id,
+        o.order_date,
+        o.ship_date,
+        o.ship_mode,
+        o.customer_id,
+        o.product_id,
+        o.country,
+        o.region,
+        o.state,
+        o.sales,
+        o.quantity,
+        o.discount,
+        o.profit,
+        r.returned
+    FROM PC_DBT_DB.DBT_.stg_instabee_orders o
+    LEFT JOIN PC_DBT_DB.DBT_.stg_instabee_returns r
+        ON o.order_id = r.order_id
+)
+
+SELECT *
+FROM base
+        );
+[0m14:26:01.398373 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.151 seconds
+[0m14:26:01.400385 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:26:01.402393 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+use warehouse COMPUTE_WH
+[0m14:26:01.484799 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.082 seconds
+[0m14:26:01.487818 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E390756390>]}
+[0m14:26:01.489828 [info ] [Thread-1 (]: 9 of 14 OK created sql table model DBT_.fact_sales ............................. [[32mSUCCESS 1[0m in 1.42s]
+[0m14:26:01.491838 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.fact_sales
+[0m14:26:01.491838 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.month_on_month_change
+[0m14:26:01.491838 [info ] [Thread-1 (]: 10 of 14 START sql table model DBT_.month_on_month_change ...................... [RUN]
+[0m14:26:01.491838 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.fact_sales, now model.snowflake_instabee.month_on_month_change)
+[0m14:26:01.491838 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.month_on_month_change
+[0m14:26:01.501881 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.month_on_month_change"
+[0m14:26:01.501881 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.month_on_month_change
+[0m14:26:01.501881 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:26:01.501881 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+select current_warehouse() as warehouse
+[0m14:26:01.580594 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.071 seconds
+[0m14:26:01.580594 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:26:01.580594 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+use warehouse pc_dbt_wh_large
+[0m14:26:01.667551 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m14:26:01.669562 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.month_on_month_change"
+[0m14:26:01.673578 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:26:01.673578 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+create or replace transient table PC_DBT_DB.DBT_.month_on_month_change
+         as
+        (SELECT
+    DATE_TRUNC('month', order_date) AS order_month,
+    SUM(sales) AS total_sales,
+    LAG(SUM(sales)) OVER (ORDER BY DATE_TRUNC('month', order_date)) AS previous_month_sales,
+    SUM(sales) - LAG(SUM(sales)) OVER (ORDER BY DATE_TRUNC('month', order_date)) AS change_in_sales
+FROM PC_DBT_DB.DBT_.fact_sales
+WHERE EXTRACT(YEAR FROM order_date) = 2019
+GROUP BY 1
+        );
+[0m14:26:02.524775 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.850 seconds
+[0m14:26:02.526782 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:26:02.526782 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+use warehouse COMPUTE_WH
+[0m14:26:02.607557 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.079 seconds
+[0m14:26:02.609565 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39065E210>]}
+[0m14:26:02.609565 [info ] [Thread-1 (]: 10 of 14 OK created sql table model DBT_.month_on_month_change ................. [[32mSUCCESS 1[0m in 1.12s]
+[0m14:26:02.611572 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.month_on_month_change
+[0m14:26:02.611572 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.monthly_returns_per_category
+[0m14:26:02.613318 [info ] [Thread-1 (]: 11 of 14 START sql table model DBT_.monthly_returns_per_category ............... [RUN]
+[0m14:26:02.613318 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.month_on_month_change, now model.snowflake_instabee.monthly_returns_per_category)
+[0m14:26:02.615742 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.monthly_returns_per_category
+[0m14:26:02.619758 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:26:02.619758 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.monthly_returns_per_category
+[0m14:26:02.623773 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:26:02.623773 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+select current_warehouse() as warehouse
+[0m14:26:02.695753 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.070 seconds
+[0m14:26:02.699770 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:26:02.699770 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+use warehouse pc_dbt_wh_large
+[0m14:26:02.782491 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m14:26:02.784501 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:26:02.787514 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:26:02.787514 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+create or replace transient table PC_DBT_DB.DBT_.monthly_returns_per_category
+         as
+        (select * from (SELECT
+    DATE_TRUNC('month', s.order_date) AS order_month,
+    p.product_category,P.SUB_CATEGORY,
+    COUNT(CASE WHEN s.order_id IS NOT NULL and s.returned = 'Yes' THEN 1 END) AS returned_orders
+FROM PC_DBT_DB.DBT_.fact_sales s
+JOIN PC_DBT_DB.DBT_.dim_products p
+    ON s.product_id = p.product_id
+WHERE EXTRACT(YEAR FROM s.order_date) = 2019
+GROUP BY 1, 2,3
+ORDER BY 4 DESC)
+WHERE returned_orders <>0
+        );
+[0m14:26:03.710191 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.920 seconds
+[0m14:26:03.713713 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:26:03.713713 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+use warehouse COMPUTE_WH
+[0m14:26:03.793876 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:26:03.796895 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39072C9B0>]}
+[0m14:26:03.796895 [info ] [Thread-1 (]: 11 of 14 OK created sql table model DBT_.monthly_returns_per_category .......... [[32mSUCCESS 1[0m in 1.18s]
+[0m14:26:03.798902 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.monthly_returns_per_category
+[0m14:26:03.798902 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.sales_growth_per_category
+[0m14:26:03.798902 [info ] [Thread-1 (]: 12 of 14 START sql table model DBT_.sales_growth_per_category .................. [RUN]
+[0m14:26:03.798902 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.monthly_returns_per_category, now model.snowflake_instabee.sales_growth_per_category)
+[0m14:26:03.798902 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.sales_growth_per_category
+[0m14:26:03.806449 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.sales_growth_per_category"
+[0m14:26:03.806449 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.sales_growth_per_category
+[0m14:26:03.810465 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:26:03.810465 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+select current_warehouse() as warehouse
+[0m14:26:03.873774 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.072 seconds
+[0m14:26:03.886659 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:26:03.886659 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+use warehouse pc_dbt_wh_large
+[0m14:26:03.982233 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.094 seconds
+[0m14:26:03.984244 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.sales_growth_per_category"
+[0m14:26:03.984244 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:26:03.984244 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+create or replace transient table PC_DBT_DB.DBT_.sales_growth_per_category
+         as
+        (SELECT
+    DATE_TRUNC('month', s.order_date) AS order_month,
+    p.product_category,
+    SUM(s.sales) AS monthly_sales,
+    LAG(SUM(s.sales)) OVER (PARTITION BY p.product_category ORDER BY DATE_TRUNC('month', s.order_date)) AS previous_month_sales,
+    (SUM(s.sales) - LAG(SUM(s.sales)) OVER (PARTITION BY p.product_category ORDER BY DATE_TRUNC('month', s.order_date))) /
+        NULLIF(LAG(SUM(s.sales)) OVER (PARTITION BY p.product_category ORDER BY DATE_TRUNC('month', s.order_date)), 0) AS growth_rate
+FROM PC_DBT_DB.DBT_.fact_sales s
+JOIN PC_DBT_DB.DBT_.dim_products p
+    ON s.product_id = p.product_id
+WHERE EXTRACT(YEAR FROM order_date) = 2019
+GROUP BY 1, 2
+        );
+[0m14:26:04.830665 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.839 seconds
+[0m14:26:04.834537 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:26:04.834537 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+use warehouse COMPUTE_WH
+[0m14:26:04.911023 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.075 seconds
+[0m14:26:04.913031 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3907B6ED0>]}
+[0m14:26:04.915038 [info ] [Thread-1 (]: 12 of 14 OK created sql table model DBT_.sales_growth_per_category ............. [[32mSUCCESS 1[0m in 1.11s]
+[0m14:26:04.915038 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.sales_growth_per_category
+[0m14:26:04.915038 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.sales_over_time
+[0m14:26:04.917046 [info ] [Thread-1 (]: 13 of 14 START sql table model DBT_.sales_over_time ............................ [RUN]
+[0m14:26:04.917046 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.sales_growth_per_category, now model.snowflake_instabee.sales_over_time)
+[0m14:26:04.917046 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.sales_over_time
+[0m14:26:04.923155 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.sales_over_time"
+[0m14:26:04.923155 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.sales_over_time
+[0m14:26:04.923155 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:26:04.923155 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+select current_warehouse() as warehouse
+[0m14:26:05.000854 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.069 seconds
+[0m14:26:05.004378 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:26:05.006387 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+use warehouse pc_dbt_wh_large
+[0m14:26:05.097852 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.091 seconds
+[0m14:26:05.097852 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.sales_over_time"
+[0m14:26:05.097852 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:26:05.097852 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+create or replace transient table PC_DBT_DB.DBT_.sales_over_time
+         as
+        (WITH monthly_sales AS (
+  SELECT
+      DATE_TRUNC('month', order_date) AS order_month,
+      p.product_category,
+      SUM(s.sales) AS category_sales
+  FROM PC_DBT_DB.DBT_.fact_sales s
+  JOIN PC_DBT_DB.DBT_.dim_products p
+      ON s.product_id = p.product_id
+  WHERE EXTRACT(YEAR FROM order_date) = 2019
+  GROUP BY 1, 2
+),
+
+monthly_totals AS (
+  SELECT
+      order_month,
+      SUM(category_sales) AS total_monthly_sales
+  FROM monthly_sales
+  GROUP BY 1
+)
+
+SELECT
+    ms.order_month,
+    ms.product_category,
+    ms.category_sales,
+    ROUND(ms.category_sales * 100.0 / mt.total_monthly_sales, 2) AS sales_percentage
+FROM monthly_sales ms
+JOIN monthly_totals mt
+    ON ms.order_month = mt.order_month
+ORDER BY 1, 4 DESC
+        );
+[0m14:26:05.892053 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.787 seconds
+[0m14:26:05.894064 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:26:05.896074 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+use warehouse COMPUTE_WH
+[0m14:26:05.975182 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.083 seconds
+[0m14:26:05.975182 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3907B6510>]}
+[0m14:26:05.975182 [info ] [Thread-1 (]: 13 of 14 OK created sql table model DBT_.sales_over_time ....................... [[32mSUCCESS 1[0m in 1.06s]
+[0m14:26:05.975182 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.sales_over_time
+[0m14:26:05.975182 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:26:05.975182 [info ] [Thread-1 (]: 14 of 14 START sql table model DBT_.top_selling_states_and_regions ............. [RUN]
+[0m14:26:05.975182 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.sales_over_time, now model.snowflake_instabee.top_selling_states_and_regions)
+[0m14:26:05.991155 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:26:05.991155 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:26:05.991155 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:26:05.991155 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:26:05.991155 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+select current_warehouse() as warehouse
+[0m14:26:06.071125 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.068 seconds
+[0m14:26:06.071125 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:26:06.071125 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+use warehouse pc_dbt_wh_large
+[0m14:26:06.150727 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.078 seconds
+[0m14:26:06.150727 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:26:06.170432 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:26:06.170432 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+create or replace transient table PC_DBT_DB.DBT_.top_selling_states_and_regions
+         as
+        (WITH monthly_region_sales AS(SELECT
+DATE_TRUNC('month', order_date) AS order_month,
+    s.region,
+    s.state,
+    d.regional_manager,
+    SUM(s.sales) AS region_sales
+FROM PC_DBT_DB.DBT_.fact_sales s
+LEFT JOIN PC_DBT_DB.DBT_.dim_regions d
+    ON s.region = d.region AND s.state = d.state
+WHERE EXTRACT(YEAR FROM s.order_date) = 2019
+GROUP BY 1, 2, 3,4
+ORDER BY region_sales DESC),
+
+monthly_totals AS (
+  SELECT
+      order_month,
+      SUM(region_sales) AS total_monthly_sales
+  FROM monthly_region_sales
+  GROUP BY 1
+),
+
+ranked_regions AS (
+  SELECT
+      mrs.*,
+      mt.total_monthly_sales,
+      ROUND(mrs.region_sales * 100.0 / mt.total_monthly_sales, 2) AS sales_percentage,
+      ROW_NUMBER() OVER (PARTITION BY mrs.order_month ORDER BY mrs.region_sales DESC) AS region_rank
+  FROM monthly_region_sales mrs
+  JOIN monthly_totals mt
+      ON mrs.order_month = mt.order_month
+  WHERE mrs.order_month IS NOT NULL
+)
+
+SELECT
+    order_month,
+    region AS top_region,
+    state AS top_state,
+    regional_manager,
+    region_sales,
+    sales_percentage
+FROM ranked_regions
+WHERE region_rank = 1
+ORDER BY order_month DESC
+        );
+[0m14:26:07.117330 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.869 seconds
+[0m14:26:07.119755 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:26:07.121192 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+use warehouse COMPUTE_WH
+[0m14:26:07.213436 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.091 seconds
+[0m14:26:07.229884 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f2ffeb40-0cbd-41c6-b802-84b1b1d693cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39074C110>]}
+[0m14:26:07.229884 [info ] [Thread-1 (]: 14 of 14 OK created sql table model DBT_.top_selling_states_and_regions ........ [[32mSUCCESS 1[0m in 1.25s]
+[0m14:26:07.229884 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:26:07.239640 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:26:07.239640 [debug] [MainThread]: Connection 'list_PC_DBT_DB' was left open.
+[0m14:26:07.239640 [debug] [MainThread]: On list_PC_DBT_DB: Close
+[0m14:26:07.355220 [debug] [MainThread]: Connection 'list_PC_DBT_DB_DBT_' was left open.
+[0m14:26:07.355220 [debug] [MainThread]: On list_PC_DBT_DB_DBT_: Close
+[0m14:26:07.541627 [debug] [MainThread]: Connection 'model.snowflake_instabee.top_selling_states_and_regions' was left open.
+[0m14:26:07.541627 [debug] [MainThread]: On model.snowflake_instabee.top_selling_states_and_regions: Close
+[0m14:26:07.653155 [info ] [MainThread]: 
+[0m14:26:07.653155 [info ] [MainThread]: Finished running 10 table models, 4 view models in 0 hours 0 minutes and 17.39 seconds (17.39s).
+[0m14:26:07.653155 [debug] [MainThread]: Command end result
+[0m14:26:07.796150 [debug] [MainThread]: Wrote artifact WritableManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\manifest.json
+[0m14:26:07.796150 [debug] [MainThread]: Wrote artifact SemanticManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\semantic_manifest.json
+[0m14:26:07.812117 [debug] [MainThread]: Wrote artifact RunExecutionResult to E:\desk\onedrive\Desktop\snowflake_instabee\target\run_results.json
+[0m14:26:07.814125 [info ] [MainThread]: 
+[0m14:26:07.814125 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:26:07.816134 [info ] [MainThread]: 
+[0m14:26:07.816134 [info ] [MainThread]: Done. PASS=14 WARN=0 ERROR=0 SKIP=0 TOTAL=14
+[0m14:26:07.816134 [debug] [MainThread]: Command `dbt run` succeeded at 14:26:07.816134 after 20.49 seconds
+[0m14:26:07.816134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E385C57B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39073D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39073D5B0>]}
+[0m14:26:07.816134 [debug] [MainThread]: Flushing usage events
+[0m14:26:08.392157 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:46:30.846969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0C13C5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0E8E8320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0E8E8350>]}
+
+
+============================== 14:46:30.854248 | 2936f372-56ec-4c65-a082-938684038fad ==============================
+[0m14:46:30.854248 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:46:30.855738 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Venee\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'E:\\desk\\onedrive\\Desktop\\snowflake_instabee\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:31.061116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2936f372-56ec-4c65-a082-938684038fad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0ED6F950>]}
+[0m14:46:31.086409 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+        The default package install path has changed from `dbt_modules` to
+`dbt_packages`.         Please update `clean-targets` in `dbt_project.yml` and
+check `.gitignore` as well.         Or, set `packages-install-path: dbt_modules`
+if you'd like to keep the current value.
+[0m14:46:31.087416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '2936f372-56ec-4c65-a082-938684038fad', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0EE5A750>]}
+[0m14:46:31.108438 [debug] [MainThread]: Command `dbt clean` succeeded at 14:46:31.108438 after 0.49 seconds
+[0m14:46:31.109440 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0ECEF3E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0E4A7590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E0E52D820>]}
+[0m14:46:31.110839 [debug] [MainThread]: Flushing usage events
+[0m14:46:31.590123 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:46:41.103536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13813C7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13A411700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13A8A4A70>]}
+
+
+============================== 14:46:41.113727 | 7b4adb45-198a-4133-b871-fc1d75235381 ==============================
+[0m14:46:41.113727 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:46:41.117208 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Venee\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'E:\\desk\\onedrive\\Desktop\\snowflake_instabee\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:41.366700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7b4adb45-198a-4133-b871-fc1d75235381', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13A8A5820>]}
+[0m14:46:41.544612 [debug] [MainThread]: Set downloads directory='C:\Users\Venee\AppData\Local\Temp\dbt-downloads-dkd63w4q'
+[0m14:46:41.544612 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m14:46:41.655544 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m14:46:41.655544 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m14:46:41.693176 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m14:46:41.700725 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m14:46:42.557899 [info ] [MainThread]: Installed from version 1.3.0
+[0m14:46:42.560945 [info ] [MainThread]: Up to date!
+[0m14:46:42.563464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7b4adb45-198a-4133-b871-fc1d75235381', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13ADEF350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13A88BFB0>]}
+[0m14:46:42.627390 [debug] [MainThread]: Command `dbt deps` succeeded at 14:46:42.626223 after 1.68 seconds
+[0m14:46:42.630386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13AB95FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13A8A5820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B13AE6AF60>]}
+[0m14:46:42.637818 [debug] [MainThread]: Flushing usage events
+[0m14:46:43.139390 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:46:52.434821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EF5D780E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EF5D7BAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EF5D7A420>]}
+
+
+============================== 14:46:52.442180 | 34e8931e-80d1-43cd-8280-1102a84367ac ==============================
+[0m14:46:52.442180 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:46:52.443187 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'E:\\desk\\onedrive\\Desktop\\snowflake_instabee\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Venee\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:52.505241 [info ] [MainThread]: dbt version: 1.9.4
+[0m14:46:52.506248 [info ] [MainThread]: python version: 3.12.10
+[0m14:46:52.506248 [info ] [MainThread]: python path: C:\Users\Venee\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+[0m14:46:52.507253 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m14:46:53.654283 [info ] [MainThread]: Using profiles dir at C:\Users\Venee\.dbt
+[0m14:46:53.655612 [info ] [MainThread]: Using profiles.yml file at C:\Users\Venee\.dbt\profiles.yml
+[0m14:46:53.656629 [info ] [MainThread]: Using dbt_project.yml file at E:\desk\onedrive\Desktop\snowflake_instabee\dbt_project.yml
+[0m14:46:53.657635 [info ] [MainThread]: adapter type: snowflake
+[0m14:46:53.657635 [info ] [MainThread]: adapter version: 1.9.2
+[0m14:46:53.816880 [info ] [MainThread]: Configuration:
+[0m14:46:53.817880 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:46:53.817880 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:46:53.818880 [info ] [MainThread]: Required dependencies:
+[0m14:46:53.818880 [debug] [MainThread]: Executing "git --help"
+[0m14:46:53.927030 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:46:53.928549 [debug] [MainThread]: STDERR: "b''"
+[0m14:46:53.929543 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:46:53.929543 [info ] [MainThread]: Connection:
+[0m14:46:53.929543 [info ] [MainThread]:   account: XU17144.europe-west4.gcp
+[0m14:46:53.930905 [info ] [MainThread]:   user: VENNALLAA
+[0m14:46:53.930905 [info ] [MainThread]:   database: PC_DBT_DB
+[0m14:46:53.932046 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m14:46:53.933082 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m14:46:53.933082 [info ] [MainThread]:   schema: DBT_
+[0m14:46:53.934134 [info ] [MainThread]:   authenticator: None
+[0m14:46:53.934134 [info ] [MainThread]:   oauth_client_id: None
+[0m14:46:53.935141 [info ] [MainThread]:   query_tag: None
+[0m14:46:53.935141 [info ] [MainThread]:   client_session_keep_alive: False
+[0m14:46:53.936148 [info ] [MainThread]:   host: None
+[0m14:46:53.936148 [info ] [MainThread]:   port: None
+[0m14:46:53.937156 [info ] [MainThread]:   proxy_host: None
+[0m14:46:53.937156 [info ] [MainThread]:   proxy_port: None
+[0m14:46:53.938162 [info ] [MainThread]:   protocol: None
+[0m14:46:53.938162 [info ] [MainThread]:   connect_retries: 1
+[0m14:46:53.938162 [info ] [MainThread]:   connect_timeout: None
+[0m14:46:53.939629 [info ] [MainThread]:   retry_on_database_errors: False
+[0m14:46:53.939629 [info ] [MainThread]:   retry_all: False
+[0m14:46:53.940707 [info ] [MainThread]:   insecure_mode: False
+[0m14:46:53.941750 [info ] [MainThread]:   reuse_connections: True
+[0m14:46:53.941750 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m14:46:54.763621 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m14:46:54.881529 [debug] [MainThread]: Using snowflake connection "debug"
+[0m14:46:54.881529 [debug] [MainThread]: On debug: select 1 as id
+[0m14:46:54.882529 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:46:55.485758 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.603 seconds
+[0m14:46:55.486826 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:46:55.487835 [info ] [MainThread]: [32mAll checks passed![0m
+[0m14:46:55.488858 [debug] [MainThread]: Command `dbt debug` succeeded at 14:46:55.488858 after 3.23 seconds
+[0m14:46:55.489861 [debug] [MainThread]: Connection 'debug' was left open.
+[0m14:46:55.489861 [debug] [MainThread]: On debug: Close
+[0m14:46:55.614780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EF574A270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EFF2E4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016EFF35DDF0>]}
+[0m14:46:55.614780 [debug] [MainThread]: Flushing usage events
+[0m14:46:56.050880 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:47:05.520358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32D461E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32D462BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32D460AA0>]}
+
+
+============================== 14:47:05.526689 | 5dfa87a8-fdb8-4978-858b-6c1cb9862838 ==============================
+[0m14:47:05.526689 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:47:05.528193 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'E:\\desk\\onedrive\\Desktop\\snowflake_instabee\\logs', 'profiles_dir': 'C:\\Users\\Venee\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt build', 'send_anonymous_usage_stats': 'True'}
+[0m14:47:06.998767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32ADE3680>]}
+[0m14:47:07.158268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32A0074D0>]}
+[0m14:47:07.160271 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m14:47:07.939652 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m14:47:07.941713 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:47:07.941713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D334AFB980>]}
+[0m14:47:10.724806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336676D20>]}
+[0m14:47:10.864656 [debug] [MainThread]: Wrote artifact WritableManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\manifest.json
+[0m14:47:10.872302 [debug] [MainThread]: Wrote artifact SemanticManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\semantic_manifest.json
+[0m14:47:11.106124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D33620ED80>]}
+[0m14:47:11.107579 [info ] [MainThread]: Found 14 models, 17 data tests, 3 sources, 591 macros
+[0m14:47:11.112609 [info ] [MainThread]: 
+[0m14:47:11.113626 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:47:11.113626 [info ] [MainThread]: 
+[0m14:47:11.114938 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:47:11.123943 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_PC_DBT_DB'
+[0m14:47:11.263149 [debug] [ThreadPool]: Using snowflake connection "list_PC_DBT_DB"
+[0m14:47:11.263149 [debug] [ThreadPool]: On list_PC_DBT_DB: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "connection_name": "list_PC_DBT_DB"} */
+show terse schemas in database PC_DBT_DB
+    limit 10000
+[0m14:47:11.264151 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:47:11.926929 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.663 seconds
+[0m14:47:11.932445 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_PC_DBT_DB_DBT_'
+[0m14:47:11.949229 [debug] [ThreadPool]: Using snowflake connection "list_PC_DBT_DB_DBT_"
+[0m14:47:11.950230 [debug] [ThreadPool]: On list_PC_DBT_DB_DBT_: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "connection_name": "list_PC_DBT_DB_DBT_"} */
+show objects in PC_DBT_DB.DBT_ limit 10000;
+[0m14:47:11.951232 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:47:12.459206 [debug] [ThreadPool]: SQL status: SUCCESS 16 in 0.508 seconds
+[0m14:47:12.467583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D328E32F00>]}
+[0m14:47:12.544706 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.my_first_dbt_model
+[0m14:47:12.546168 [info ] [Thread-1 (]: 1 of 31 START sql table model DBT_.my_first_dbt_model .......................... [RUN]
+[0m14:47:12.547172 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.snowflake_instabee.my_first_dbt_model'
+[0m14:47:12.548196 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.my_first_dbt_model
+[0m14:47:12.560398 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.my_first_dbt_model"
+[0m14:47:12.563496 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.my_first_dbt_model
+[0m14:47:12.622013 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.my_first_dbt_model"
+[0m14:47:12.625295 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.my_first_dbt_model"
+[0m14:47:12.626388 [debug] [Thread-1 (]: On model.snowflake_instabee.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.my_first_dbt_model"} */
+create or replace transient table PC_DBT_DB.DBT_.my_first_dbt_model
+         as
+        (/*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+    select 1 as id, 'Example record 1' as description
+    union all
+    select 2 as id, 'Example record 2' as description
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+        );
+[0m14:47:12.626388 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:47:13.840885 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.214 seconds
+[0m14:47:13.888920 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32ADAAF00>]}
+[0m14:47:13.889923 [info ] [Thread-1 (]: 1 of 31 OK created sql table model DBT_.my_first_dbt_model ..................... [[32mSUCCESS 1[0m in 1.34s]
+[0m14:47:13.890924 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.my_first_dbt_model
+[0m14:47:13.891925 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.stg_instabee_people
+[0m14:47:13.892926 [info ] [Thread-1 (]: 2 of 31 START sql view model DBT_.stg_instabee_people .......................... [RUN]
+[0m14:47:13.893927 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.my_first_dbt_model, now model.snowflake_instabee.stg_instabee_people)
+[0m14:47:13.894929 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.stg_instabee_people
+[0m14:47:13.898935 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.stg_instabee_people"
+[0m14:47:13.901321 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.stg_instabee_people
+[0m14:47:13.906729 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:47:13.907736 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+select current_warehouse() as warehouse
+[0m14:47:14.045018 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.137 seconds
+[0m14:47:14.048023 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:47:14.049024 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+use warehouse pc_dbt_wh
+[0m14:47:14.152915 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.103 seconds
+[0m14:47:14.185668 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.stg_instabee_people"
+[0m14:47:14.187811 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:47:14.189099 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+create or replace   view PC_DBT_DB.DBT_.stg_instabee_people
+  
+   as (
+    with source as (
+
+    select * from INSTABEE.PUBLIC.PEOPLE
+
+)
+
+select * from source
+  );
+[0m14:47:14.402922 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.213 seconds
+[0m14:47:14.407114 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_people"
+[0m14:47:14.408116 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_people: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_people"} */
+use warehouse COMPUTE_WH
+[0m14:47:14.493901 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.085 seconds
+[0m14:47:14.496910 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336EB55B0>]}
+[0m14:47:14.497912 [info ] [Thread-1 (]: 2 of 31 OK created sql view model DBT_.stg_instabee_people ..................... [[32mSUCCESS 1[0m in 0.60s]
+[0m14:47:14.498915 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.stg_instabee_people
+[0m14:47:14.502293 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.stg_instabee_returns
+[0m14:47:14.503301 [info ] [Thread-1 (]: 3 of 31 START sql view model DBT_.stg_instabee_returns ......................... [RUN]
+[0m14:47:14.504320 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.stg_instabee_people, now model.snowflake_instabee.stg_instabee_returns)
+[0m14:47:14.505646 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.stg_instabee_returns
+[0m14:47:14.512698 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.stg_instabee_returns"
+[0m14:47:14.514961 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.stg_instabee_returns
+[0m14:47:14.522924 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:47:14.524931 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+select current_warehouse() as warehouse
+[0m14:47:14.621959 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.096 seconds
+[0m14:47:14.626014 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:47:14.627045 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+use warehouse pc_dbt_wh
+[0m14:47:14.715443 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.087 seconds
+[0m14:47:14.721891 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.stg_instabee_returns"
+[0m14:47:14.725893 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:47:14.726892 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+create or replace   view PC_DBT_DB.DBT_.stg_instabee_returns
+  
+   as (
+    WITH source AS (
+    SELECT * FROM INSTABEE.PUBLIC.RETURNS
+),
+
+deduplicated AS (
+    SELECT order_id, MAX(returned) AS returned
+    FROM source
+    GROUP BY order_id
+)
+
+SELECT * FROM deduplicated
+  );
+[0m14:47:14.922545 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.194 seconds
+[0m14:47:14.926570 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_returns"
+[0m14:47:14.927573 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_returns: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_returns"} */
+use warehouse COMPUTE_WH
+[0m14:47:15.031994 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.104 seconds
+[0m14:47:15.034986 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336F45850>]}
+[0m14:47:15.037080 [info ] [Thread-1 (]: 3 of 31 OK created sql view model DBT_.stg_instabee_returns .................... [[32mSUCCESS 1[0m in 0.53s]
+[0m14:47:15.038098 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.stg_instabee_returns
+[0m14:47:15.039101 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91
+[0m14:47:15.040103 [info ] [Thread-1 (]: 4 of 31 START test dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID  [RUN]
+[0m14:47:15.040103 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.stg_instabee_returns, now test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91)
+[0m14:47:15.041572 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91
+[0m14:47:15.048591 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91"
+[0m14:47:15.050918 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91
+[0m14:47:15.080210 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91"
+[0m14:47:15.083212 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91"
+[0m14:47:15.085031 [debug] [Thread-1 (]: On test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+
+
+with validation_errors as (
+
+    select
+        ORDER_ID, PRODUCT_ID, ROW_ID
+    from INSTABEE.PUBLIC.ORDERS
+    group by ORDER_ID, PRODUCT_ID, ROW_ID
+    having count(*) > 1
+
+)
+
+select *
+from validation_errors
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:15.215297 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.129 seconds
+[0m14:47:15.281545 [info ] [Thread-1 (]: 4 of 31 PASS dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID  [[32mPASS[0m in 0.24s]
+[0m14:47:15.282769 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91
+[0m14:47:15.282769 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca
+[0m14:47:15.284131 [info ] [Thread-1 (]: 5 of 31 START test source_not_null_instabee_ORDERS_ORDER_ID .................... [RUN]
+[0m14:47:15.285567 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.dbt_utils_source_unique_combination_of_columns_instabee_ORDERS_ORDER_ID__PRODUCT_ID__ROW_ID.3f9cb81a91, now test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca)
+[0m14:47:15.286700 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca
+[0m14:47:15.298700 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca"
+[0m14:47:15.300694 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca
+[0m14:47:15.304602 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca"
+[0m14:47:15.306787 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca"
+[0m14:47:15.308021 [debug] [Thread-1 (]: On test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select ORDER_ID
+from INSTABEE.PUBLIC.ORDERS
+where ORDER_ID is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:15.428746 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.120 seconds
+[0m14:47:15.435257 [info ] [Thread-1 (]: 5 of 31 PASS source_not_null_instabee_ORDERS_ORDER_ID .......................... [[32mPASS[0m in 0.15s]
+[0m14:47:15.436370 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca
+[0m14:47:15.437659 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b
+[0m14:47:15.438665 [info ] [Thread-1 (]: 6 of 31 START test source_not_null_instabee_ORDERS_ROW_ID ...................... [RUN]
+[0m14:47:15.438665 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.source_not_null_instabee_ORDERS_ORDER_ID.160b834fca, now test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b)
+[0m14:47:15.438665 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b
+[0m14:47:15.445044 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b"
+[0m14:47:15.446049 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b
+[0m14:47:15.450240 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b"
+[0m14:47:15.452463 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b"
+[0m14:47:15.453588 [debug] [Thread-1 (]: On test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select ROW_ID
+from INSTABEE.PUBLIC.ORDERS
+where ROW_ID is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:15.535185 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m14:47:15.538771 [info ] [Thread-1 (]: 6 of 31 PASS source_not_null_instabee_ORDERS_ROW_ID ............................ [[32mPASS[0m in 0.10s]
+[0m14:47:15.539795 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b
+[0m14:47:15.539795 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b
+[0m14:47:15.540797 [info ] [Thread-1 (]: 7 of 31 START test source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_  [RUN]
+[0m14:47:15.542225 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.source_not_null_instabee_ORDERS_ROW_ID.e0a4286d0b, now test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b)
+[0m14:47:15.542225 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b
+[0m14:47:15.549245 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b"
+[0m14:47:15.627268 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b
+[0m14:47:15.632267 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b"
+[0m14:47:15.635376 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b"
+[0m14:47:15.636469 [debug] [Thread-1 (]: On test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with child as (
+    select REGION as from_field
+    from INSTABEE.PUBLIC.ORDERS
+    where REGION is not null
+),
+
+parent as (
+    select REGION as to_field
+    from INSTABEE.PUBLIC.PEOPLE
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:15.754870 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.117 seconds
+[0m14:47:15.760963 [info ] [Thread-1 (]: 7 of 31 PASS source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_  [[32mPASS[0m in 0.22s]
+[0m14:47:15.762996 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b
+[0m14:47:15.764013 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4
+[0m14:47:15.766043 [info ] [Thread-1 (]: 8 of 31 START test source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_  [RUN]
+[0m14:47:15.767140 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.source_relationships_instabee_ORDERS_REGION__REGION__source_instabee_PEOPLE_.83bfea9f9b, now test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4)
+[0m14:47:15.768227 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4
+[0m14:47:15.775768 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4"
+[0m14:47:15.776768 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4
+[0m14:47:15.780768 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4"
+[0m14:47:15.782770 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4"
+[0m14:47:15.785532 [debug] [Thread-1 (]: On test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with child as (
+    select ORDER_ID as from_field
+    from INSTABEE.PUBLIC.RETURNS
+    where ORDER_ID is not null
+),
+
+parent as (
+    select ORDER_ID as to_field
+    from INSTABEE.PUBLIC.ORDERS
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:15.964938 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.178 seconds
+[0m14:47:15.968846 [info ] [Thread-1 (]: 8 of 31 PASS source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_  [[32mPASS[0m in 0.20s]
+[0m14:47:15.969943 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4
+[0m14:47:15.970950 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710
+[0m14:47:15.970950 [info ] [Thread-1 (]: 9 of 31 START test not_null_my_first_dbt_model_id .............................. [RUN]
+[0m14:47:15.972346 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.source_relationships_instabee_RETURNS_ORDER_ID__ORDER_ID__source_instabee_ORDERS_.6d2dc65aa4, now test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710)
+[0m14:47:15.972346 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710
+[0m14:47:15.978395 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m14:47:15.980711 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710
+[0m14:47:15.987740 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m14:47:15.990096 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m14:47:15.991526 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from PC_DBT_DB.DBT_.my_first_dbt_model
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:16.483685 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.491 seconds
+[0m14:47:16.489075 [info ] [Thread-1 (]: 9 of 31 PASS not_null_my_first_dbt_model_id .................................... [[32mPASS[0m in 0.52s]
+[0m14:47:16.490481 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710
+[0m14:47:16.491485 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321
+[0m14:47:16.492504 [info ] [Thread-1 (]: 10 of 31 START test unique_my_first_dbt_model_id ............................... [RUN]
+[0m14:47:16.492504 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_my_first_dbt_model_id.5fb22c2710, now test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321)
+[0m14:47:16.493866 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321
+[0m14:47:16.503403 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321"
+[0m14:47:16.504405 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321
+[0m14:47:16.508692 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321"
+[0m14:47:16.510722 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321"
+[0m14:47:16.511726 [debug] [Thread-1 (]: On test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from (select * from PC_DBT_DB.DBT_.my_first_dbt_model where id is not null) dbt_subquery
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:17.071131 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.559 seconds
+[0m14:47:17.075133 [info ] [Thread-1 (]: 10 of 31 PASS unique_my_first_dbt_model_id ..................................... [[32mPASS[0m in 0.58s]
+[0m14:47:17.077131 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321
+[0m14:47:17.078132 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.stg_instabee_orders
+[0m14:47:17.079133 [info ] [Thread-1 (]: 11 of 31 START sql view model DBT_.stg_instabee_orders ......................... [RUN]
+[0m14:47:17.080132 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.unique_my_first_dbt_model_id.16e066b321, now model.snowflake_instabee.stg_instabee_orders)
+[0m14:47:17.081132 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.stg_instabee_orders
+[0m14:47:17.090256 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.stg_instabee_orders"
+[0m14:47:17.092269 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.stg_instabee_orders
+[0m14:47:17.096269 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:47:17.097270 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+select current_warehouse() as warehouse
+[0m14:47:17.164727 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.067 seconds
+[0m14:47:17.168162 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:47:17.168162 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+use warehouse pc_dbt_wh
+[0m14:47:17.253523 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.084 seconds
+[0m14:47:17.257533 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.stg_instabee_orders"
+[0m14:47:17.261942 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:47:17.262947 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+create or replace   view PC_DBT_DB.DBT_.stg_instabee_orders
+  
+   as (
+    with source as (
+
+    select * from INSTABEE.PUBLIC.ORDERS
+
+),
+
+renamed as (
+
+    select 
+md5(cast(coalesce(cast(ORDER_ID as TEXT), '') || '-' || coalesce(cast(PRODUCT_ID as TEXT), '') || '-' || coalesce(cast(ROW_ID as TEXT), '') as TEXT)) as ORDER_LINE_ID,
+ROW_ID,
+ORDER_ID,	
+ORDERDATE AS ORDER_DATE,
+SHIPDATE AS SHIP_DATE,	
+SHIP_MODE,	
+CUSTOMER_ID,	
+CUSTOMER_NAME,	
+SEGMENT,
+COUNTRY,
+CITY,
+STATE,	
+POSTAL_CODE,	
+REGION,	
+PRODUCT_ID,	
+CATEGORY as PRODUCT_CATEGORY,	
+SUB_CATEGORY,	
+PRODUCT_NAME,	
+SALES,	
+QUANTITY,	
+DISCOUNT,	
+PROFIT
+
+
+    from source
+
+)
+
+select * from renamed
+  );
+[0m14:47:17.539047 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.275 seconds
+[0m14:47:17.543067 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.stg_instabee_orders"
+[0m14:47:17.543067 [debug] [Thread-1 (]: On model.snowflake_instabee.stg_instabee_orders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.stg_instabee_orders"} */
+use warehouse COMPUTE_WH
+[0m14:47:17.618674 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.074 seconds
+[0m14:47:17.620675 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336856E10>]}
+[0m14:47:17.622675 [info ] [Thread-1 (]: 11 of 31 OK created sql view model DBT_.stg_instabee_orders .................... [[32mSUCCESS 1[0m in 0.54s]
+[0m14:47:17.623675 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.stg_instabee_orders
+[0m14:47:17.623675 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.my_second_dbt_model
+[0m14:47:17.624675 [info ] [Thread-1 (]: 12 of 31 START sql view model DBT_.my_second_dbt_model ......................... [RUN]
+[0m14:47:17.626053 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.stg_instabee_orders, now model.snowflake_instabee.my_second_dbt_model)
+[0m14:47:17.627053 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.my_second_dbt_model
+[0m14:47:17.631053 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.my_second_dbt_model"
+[0m14:47:17.632942 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.my_second_dbt_model
+[0m14:47:17.637073 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.my_second_dbt_model"
+[0m14:47:17.639075 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.my_second_dbt_model"
+[0m14:47:17.639075 [debug] [Thread-1 (]: On model.snowflake_instabee.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.my_second_dbt_model"} */
+create or replace   view PC_DBT_DB.DBT_.my_second_dbt_model
+  
+   as (
+    -- Use the `ref` function to select from other models
+
+select *
+from PC_DBT_DB.DBT_.my_first_dbt_model
+where id = 1
+  );
+[0m14:47:17.821869 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.182 seconds
+[0m14:47:17.826900 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D33801E960>]}
+[0m14:47:17.827901 [info ] [Thread-1 (]: 12 of 31 OK created sql view model DBT_.my_second_dbt_model .................... [[32mSUCCESS 1[0m in 0.20s]
+[0m14:47:17.829160 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.my_second_dbt_model
+[0m14:47:17.829160 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.dim_customers
+[0m14:47:17.830162 [info ] [Thread-1 (]: 13 of 31 START sql table model DBT_.dim_customers .............................. [RUN]
+[0m14:47:17.831357 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.my_second_dbt_model, now model.snowflake_instabee.dim_customers)
+[0m14:47:17.831357 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.dim_customers
+[0m14:47:17.837148 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.dim_customers"
+[0m14:47:17.839648 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.dim_customers
+[0m14:47:17.844982 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:47:17.845987 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+select current_warehouse() as warehouse
+[0m14:47:17.918711 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.072 seconds
+[0m14:47:17.993233 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:47:17.994235 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:18.096862 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.101 seconds
+[0m14:47:18.102315 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.dim_customers"
+[0m14:47:18.105655 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:47:18.106825 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+create or replace transient table PC_DBT_DB.DBT_.dim_customers
+         as
+        (SELECT DISTINCT
+    customer_id,
+    customer_name,
+    segment
+FROM PC_DBT_DB.DBT_.stg_instabee_orders
+        );
+[0m14:47:19.338293 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.230 seconds
+[0m14:47:19.359246 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_customers"
+[0m14:47:19.360248 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_customers: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_customers"} */
+use warehouse COMPUTE_WH
+[0m14:47:19.472674 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.112 seconds
+[0m14:47:19.475708 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3380149E0>]}
+[0m14:47:19.477405 [info ] [Thread-1 (]: 13 of 31 OK created sql table model DBT_.dim_customers ......................... [[32mSUCCESS 1[0m in 1.65s]
+[0m14:47:19.478510 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.dim_customers
+[0m14:47:19.479513 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.dim_products
+[0m14:47:19.480515 [info ] [Thread-1 (]: 14 of 31 START sql table model DBT_.dim_products ............................... [RUN]
+[0m14:47:19.481600 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.dim_customers, now model.snowflake_instabee.dim_products)
+[0m14:47:19.482095 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.dim_products
+[0m14:47:19.488123 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.dim_products"
+[0m14:47:19.489126 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.dim_products
+[0m14:47:19.493552 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:47:19.494570 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+select current_warehouse() as warehouse
+[0m14:47:19.563612 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.069 seconds
+[0m14:47:19.568586 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:47:19.568586 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:19.646869 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:47:19.650227 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.dim_products"
+[0m14:47:19.653707 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:47:19.653707 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+create or replace transient table PC_DBT_DB.DBT_.dim_products
+         as
+        (WITH ranked_products AS (
+  SELECT
+    product_id,
+    product_name,
+    product_category,
+    sub_category,
+    ROW_NUMBER() OVER (
+      PARTITION BY product_id 
+      ORDER BY product_category NULLS LAST, sub_category NULLS LAST, product_name NULLS LAST
+    ) as rn
+  FROM PC_DBT_DB.DBT_.stg_instabee_orders
+  WHERE product_id IS NOT NULL
+  GROUP BY product_id, product_name, product_category, sub_category
+)
+
+SELECT
+  product_id,
+  product_name,
+  product_category,
+  sub_category
+FROM ranked_products
+WHERE rn = 1
+        );
+[0m14:47:20.687155 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.033 seconds
+[0m14:47:20.724915 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_products"
+[0m14:47:20.725915 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_products: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_products"} */
+use warehouse COMPUTE_WH
+[0m14:47:20.868556 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.142 seconds
+[0m14:47:20.871572 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336FBFB90>]}
+[0m14:47:20.872692 [info ] [Thread-1 (]: 14 of 31 OK created sql table model DBT_.dim_products .......................... [[32mSUCCESS 1[0m in 1.39s]
+[0m14:47:20.873699 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.dim_products
+[0m14:47:20.874705 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.dim_regions
+[0m14:47:20.875711 [info ] [Thread-1 (]: 15 of 31 START sql table model DBT_.dim_regions ................................ [RUN]
+[0m14:47:20.875711 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.dim_products, now model.snowflake_instabee.dim_regions)
+[0m14:47:20.877201 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.dim_regions
+[0m14:47:20.884315 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.dim_regions"
+[0m14:47:20.886611 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.dim_regions
+[0m14:47:20.889644 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:47:20.890649 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+select current_warehouse() as warehouse
+[0m14:47:20.959001 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.068 seconds
+[0m14:47:20.962015 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:47:20.962015 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:21.062017 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m14:47:21.065121 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.dim_regions"
+[0m14:47:21.067909 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:47:21.067909 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+create or replace transient table PC_DBT_DB.DBT_.dim_regions
+         as
+        (SELECT DISTINCT
+    r.region,
+    r.state,
+    p.regional_manager
+FROM PC_DBT_DB.DBT_.stg_instabee_orders r
+LEFT JOIN PC_DBT_DB.DBT_.stg_instabee_people p
+    ON r.region = p.region
+        );
+[0m14:47:22.167813 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.099 seconds
+[0m14:47:22.170845 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.dim_regions"
+[0m14:47:22.171846 [debug] [Thread-1 (]: On model.snowflake_instabee.dim_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.dim_regions"} */
+use warehouse COMPUTE_WH
+[0m14:47:22.264279 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.092 seconds
+[0m14:47:22.266628 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336F64110>]}
+[0m14:47:22.267631 [info ] [Thread-1 (]: 15 of 31 OK created sql table model DBT_.dim_regions ........................... [[32mSUCCESS 1[0m in 1.39s]
+[0m14:47:22.268678 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.dim_regions
+[0m14:47:22.269690 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.fact_sales
+[0m14:47:22.270692 [info ] [Thread-1 (]: 16 of 31 START sql table model DBT_.fact_sales ................................. [RUN]
+[0m14:47:22.272027 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.dim_regions, now model.snowflake_instabee.fact_sales)
+[0m14:47:22.272027 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.fact_sales
+[0m14:47:22.277168 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.fact_sales"
+[0m14:47:22.278172 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.fact_sales
+[0m14:47:22.283109 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:47:22.284425 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+select current_warehouse() as warehouse
+[0m14:47:22.351596 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.067 seconds
+[0m14:47:22.355596 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:47:22.356597 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:22.435212 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.078 seconds
+[0m14:47:22.439221 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.fact_sales"
+[0m14:47:22.443382 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:47:22.444395 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+create or replace transient table PC_DBT_DB.DBT_.fact_sales
+         as
+        (WITH base AS (
+    SELECT
+        o.order_line_id,
+        o.order_id,
+        o.order_date,
+        o.ship_date,
+        o.ship_mode,
+        o.customer_id,
+        o.product_id,
+        o.country,
+        o.region,
+        o.state,
+        o.sales,
+        o.quantity,
+        o.discount,
+        o.profit,
+        r.returned
+    FROM PC_DBT_DB.DBT_.stg_instabee_orders o
+    LEFT JOIN PC_DBT_DB.DBT_.stg_instabee_returns r
+        ON o.order_id = r.order_id
+)
+
+SELECT *
+FROM base
+        );
+[0m14:47:23.971304 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.525 seconds
+[0m14:47:23.973329 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.fact_sales"
+[0m14:47:23.974336 [debug] [Thread-1 (]: On model.snowflake_instabee.fact_sales: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.fact_sales"} */
+use warehouse COMPUTE_WH
+[0m14:47:24.052686 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:47:24.054745 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D328A434D0>]}
+[0m14:47:24.055746 [info ] [Thread-1 (]: 16 of 31 OK created sql table model DBT_.fact_sales ............................ [[32mSUCCESS 1[0m in 1.78s]
+[0m14:47:24.056756 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.fact_sales
+[0m14:47:24.057980 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778
+[0m14:47:24.057980 [info ] [Thread-1 (]: 17 of 31 START test not_null_my_second_dbt_model_id ............................ [RUN]
+[0m14:47:24.058982 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.fact_sales, now test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778)
+[0m14:47:24.060200 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778
+[0m14:47:24.066067 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778"
+[0m14:47:24.068451 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778
+[0m14:47:24.072749 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778"
+[0m14:47:24.075032 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778"
+[0m14:47:24.076043 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from PC_DBT_DB.DBT_.my_second_dbt_model
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:24.232596 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.156 seconds
+[0m14:47:24.237207 [info ] [Thread-1 (]: 17 of 31 PASS not_null_my_second_dbt_model_id .................................. [[32mPASS[0m in 0.18s]
+[0m14:47:24.238875 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778
+[0m14:47:24.239955 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493
+[0m14:47:24.240493 [info ] [Thread-1 (]: 18 of 31 START test unique_my_second_dbt_model_id .............................. [RUN]
+[0m14:47:24.241552 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_my_second_dbt_model_id.151b76d778, now test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493)
+[0m14:47:24.242081 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493
+[0m14:47:24.249338 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493"
+[0m14:47:24.251473 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493
+[0m14:47:24.256612 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493"
+[0m14:47:24.259160 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493"
+[0m14:47:24.259160 [debug] [Thread-1 (]: On test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from PC_DBT_DB.DBT_.my_second_dbt_model
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:24.655865 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.396 seconds
+[0m14:47:24.660559 [info ] [Thread-1 (]: 18 of 31 PASS unique_my_second_dbt_model_id .................................... [[32mPASS[0m in 0.42s]
+[0m14:47:24.660559 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493
+[0m14:47:24.662052 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m14:47:24.663068 [info ] [Thread-1 (]: 19 of 31 START test not_null_dim_customers_customer_id ......................... [RUN]
+[0m14:47:24.664362 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.unique_my_second_dbt_model_id.57a0f8c493, now test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d)
+[0m14:47:24.665742 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m14:47:24.668230 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m14:47:24.668230 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m14:47:24.681797 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m14:47:24.684403 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m14:47:24.684403 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select customer_id
+from PC_DBT_DB.DBT_.dim_customers
+where customer_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:25.182852 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.499 seconds
+[0m14:47:25.182852 [info ] [Thread-1 (]: 19 of 31 PASS not_null_dim_customers_customer_id ............................... [[32mPASS[0m in 0.52s]
+[0m14:47:25.182852 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m14:47:25.182852 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd
+[0m14:47:25.182852 [info ] [Thread-1 (]: 20 of 31 START test unique_dim_customers_customer_id ........................... [RUN]
+[0m14:47:25.182852 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_dim_customers_customer_id.dd91cd1c8d, now test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd)
+[0m14:47:25.182852 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd
+[0m14:47:25.199381 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd"
+[0m14:47:25.199381 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd
+[0m14:47:25.199381 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd"
+[0m14:47:25.199381 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd"
+[0m14:47:25.199381 [debug] [Thread-1 (]: On test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    customer_id as unique_field,
+    count(*) as n_records
+
+from PC_DBT_DB.DBT_.dim_customers
+where customer_id is not null
+group by customer_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:25.741419 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.530 seconds
+[0m14:47:25.745983 [info ] [Thread-1 (]: 20 of 31 PASS unique_dim_customers_customer_id ................................. [[32mPASS[0m in 0.56s]
+[0m14:47:25.748511 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd
+[0m14:47:25.749707 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1
+[0m14:47:25.750721 [info ] [Thread-1 (]: 21 of 31 START test not_null_dim_products_product_id ........................... [RUN]
+[0m14:47:25.751734 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.unique_dim_customers_customer_id.15c9f1e2fd, now test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1)
+[0m14:47:25.752747 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1
+[0m14:47:25.759822 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1"
+[0m14:47:25.760827 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1
+[0m14:47:25.766258 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1"
+[0m14:47:25.768726 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1"
+[0m14:47:25.769851 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select product_id
+from PC_DBT_DB.DBT_.dim_products
+where product_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:26.225185 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.455 seconds
+[0m14:47:26.229037 [info ] [Thread-1 (]: 21 of 31 PASS not_null_dim_products_product_id ................................. [[32mPASS[0m in 0.48s]
+[0m14:47:26.231327 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1
+[0m14:47:26.231327 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985
+[0m14:47:26.232330 [info ] [Thread-1 (]: 22 of 31 START test unique_dim_products_product_id ............................. [RUN]
+[0m14:47:26.233495 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_dim_products_product_id.c8aba288d1, now test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985)
+[0m14:47:26.234714 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985
+[0m14:47:26.242266 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985"
+[0m14:47:26.244264 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985
+[0m14:47:26.249241 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985"
+[0m14:47:26.251339 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985"
+[0m14:47:26.252549 [debug] [Thread-1 (]: On test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    product_id as unique_field,
+    count(*) as n_records
+
+from PC_DBT_DB.DBT_.dim_products
+where product_id is not null
+group by product_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:26.644403 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.391 seconds
+[0m14:47:26.649203 [info ] [Thread-1 (]: 22 of 31 PASS unique_dim_products_product_id ................................... [[32mPASS[0m in 0.42s]
+[0m14:47:26.650267 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985
+[0m14:47:26.650267 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_dim_regions_region.935ece66be
+[0m14:47:26.651270 [info ] [Thread-1 (]: 23 of 31 START test not_null_dim_regions_region ................................ [RUN]
+[0m14:47:26.651270 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.unique_dim_products_product_id.ef7b2a9985, now test.snowflake_instabee.not_null_dim_regions_region.935ece66be)
+[0m14:47:26.652632 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_dim_regions_region.935ece66be
+[0m14:47:26.659142 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_dim_regions_region.935ece66be"
+[0m14:47:26.736502 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_dim_regions_region.935ece66be
+[0m14:47:26.743572 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_dim_regions_region.935ece66be"
+[0m14:47:26.748981 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_dim_regions_region.935ece66be"
+[0m14:47:26.750024 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_dim_regions_region.935ece66be: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_dim_regions_region.935ece66be"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select region
+from PC_DBT_DB.DBT_.dim_regions
+where region is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:27.201856 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.458 seconds
+[0m14:47:27.213826 [info ] [Thread-1 (]: 23 of 31 PASS not_null_dim_regions_region ...................................... [[32mPASS[0m in 0.56s]
+[0m14:47:27.214899 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_dim_regions_region.935ece66be
+[0m14:47:27.214899 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b
+[0m14:47:27.215901 [info ] [Thread-1 (]: 24 of 31 START test not_null_fact_sales_order_id ............................... [RUN]
+[0m14:47:27.215901 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_dim_regions_region.935ece66be, now test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b)
+[0m14:47:27.217215 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b
+[0m14:47:27.218656 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b"
+[0m14:47:27.218656 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b
+[0m14:47:27.229948 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b"
+[0m14:47:27.232050 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b"
+[0m14:47:27.233154 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select order_id
+from PC_DBT_DB.DBT_.fact_sales
+where order_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:27.420180 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.187 seconds
+[0m14:47:27.425181 [info ] [Thread-1 (]: 24 of 31 PASS not_null_fact_sales_order_id ..................................... [[32mPASS[0m in 0.21s]
+[0m14:47:27.426180 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b
+[0m14:47:27.427180 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48
+[0m14:47:27.427180 [info ] [Thread-1 (]: 25 of 31 START test not_null_fact_sales_order_line_id .......................... [RUN]
+[0m14:47:27.429523 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_fact_sales_order_id.f6f073d70b, now test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48)
+[0m14:47:27.430310 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48
+[0m14:47:27.436395 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48"
+[0m14:47:27.437396 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48
+[0m14:47:27.441895 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48"
+[0m14:47:27.447039 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48"
+[0m14:47:27.447039 [debug] [Thread-1 (]: On test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select order_line_id
+from PC_DBT_DB.DBT_.fact_sales
+where order_line_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:27.747894 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.299 seconds
+[0m14:47:27.752157 [info ] [Thread-1 (]: 25 of 31 PASS not_null_fact_sales_order_line_id ................................ [[32mPASS[0m in 0.32s]
+[0m14:47:27.754417 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48
+[0m14:47:27.754417 [debug] [Thread-1 (]: Began running node test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd
+[0m14:47:27.755925 [info ] [Thread-1 (]: 26 of 31 START test unique_fact_sales_order_line_id ............................ [RUN]
+[0m14:47:27.758219 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.not_null_fact_sales_order_line_id.224e5eff48, now test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd)
+[0m14:47:27.759217 [debug] [Thread-1 (]: Began compiling node test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd
+[0m14:47:27.766731 [debug] [Thread-1 (]: Writing injected SQL for node "test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd"
+[0m14:47:27.767732 [debug] [Thread-1 (]: Began executing node test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd
+[0m14:47:27.771385 [debug] [Thread-1 (]: Writing runtime sql for node "test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd"
+[0m14:47:27.774386 [debug] [Thread-1 (]: Using snowflake connection "test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd"
+[0m14:47:27.774386 [debug] [Thread-1 (]: On test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    order_line_id as unique_field,
+    count(*) as n_records
+
+from PC_DBT_DB.DBT_.fact_sales
+where order_line_id is not null
+group by order_line_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m14:47:28.216644 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.441 seconds
+[0m14:47:28.219649 [info ] [Thread-1 (]: 26 of 31 PASS unique_fact_sales_order_line_id .................................. [[32mPASS[0m in 0.46s]
+[0m14:47:28.220884 [debug] [Thread-1 (]: Finished running node test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd
+[0m14:47:28.223264 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.month_on_month_change
+[0m14:47:28.224271 [info ] [Thread-1 (]: 27 of 31 START sql table model DBT_.month_on_month_change ...................... [RUN]
+[0m14:47:28.225276 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.snowflake_instabee.unique_fact_sales_order_line_id.317c4be9bd, now model.snowflake_instabee.month_on_month_change)
+[0m14:47:28.225276 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.month_on_month_change
+[0m14:47:28.230156 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.month_on_month_change"
+[0m14:47:28.232298 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.month_on_month_change
+[0m14:47:28.235741 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:47:28.236757 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+select current_warehouse() as warehouse
+[0m14:47:28.313579 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.076 seconds
+[0m14:47:28.316711 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:47:28.316711 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:28.399030 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m14:47:28.402029 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.month_on_month_change"
+[0m14:47:28.404031 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:47:28.405030 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+create or replace transient table PC_DBT_DB.DBT_.month_on_month_change
+         as
+        (SELECT
+    DATE_TRUNC('month', order_date) AS order_month,
+    SUM(sales) AS total_sales,
+    LAG(SUM(sales)) OVER (ORDER BY DATE_TRUNC('month', order_date)) AS previous_month_sales,
+    SUM(sales) - LAG(SUM(sales)) OVER (ORDER BY DATE_TRUNC('month', order_date)) AS change_in_sales
+FROM PC_DBT_DB.DBT_.fact_sales
+WHERE EXTRACT(YEAR FROM order_date) = 2019
+GROUP BY 1
+        );
+[0m14:47:29.220833 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.815 seconds
+[0m14:47:29.222837 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.month_on_month_change"
+[0m14:47:29.223838 [debug] [Thread-1 (]: On model.snowflake_instabee.month_on_month_change: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.month_on_month_change"} */
+use warehouse COMPUTE_WH
+[0m14:47:29.305707 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.081 seconds
+[0m14:47:29.308898 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D33804A570>]}
+[0m14:47:29.309939 [info ] [Thread-1 (]: 27 of 31 OK created sql table model DBT_.month_on_month_change ................. [[32mSUCCESS 1[0m in 1.08s]
+[0m14:47:29.310951 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.month_on_month_change
+[0m14:47:29.312735 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.monthly_returns_per_category
+[0m14:47:29.313918 [info ] [Thread-1 (]: 28 of 31 START sql table model DBT_.monthly_returns_per_category ............... [RUN]
+[0m14:47:29.314926 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.month_on_month_change, now model.snowflake_instabee.monthly_returns_per_category)
+[0m14:47:29.314926 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.monthly_returns_per_category
+[0m14:47:29.322078 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:47:29.323084 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.monthly_returns_per_category
+[0m14:47:29.327611 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:47:29.328657 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+select current_warehouse() as warehouse
+[0m14:47:29.477550 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.148 seconds
+[0m14:47:29.481933 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:47:29.483294 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:29.557444 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.074 seconds
+[0m14:47:29.562322 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:47:29.565555 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:47:29.566555 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+create or replace transient table PC_DBT_DB.DBT_.monthly_returns_per_category
+         as
+        (select * from (SELECT
+    DATE_TRUNC('month', s.order_date) AS order_month,
+    p.product_category,P.SUB_CATEGORY,
+    COUNT(CASE WHEN s.order_id IS NOT NULL and s.returned = 'Yes' THEN 1 END) AS returned_orders
+FROM PC_DBT_DB.DBT_.fact_sales s
+JOIN PC_DBT_DB.DBT_.dim_products p
+    ON s.product_id = p.product_id
+WHERE EXTRACT(YEAR FROM s.order_date) = 2019
+GROUP BY 1, 2,3
+ORDER BY 4 DESC)
+WHERE returned_orders <>0
+        );
+[0m14:47:30.474056 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.906 seconds
+[0m14:47:30.476056 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.monthly_returns_per_category"
+[0m14:47:30.477056 [debug] [Thread-1 (]: On model.snowflake_instabee.monthly_returns_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.monthly_returns_per_category"} */
+use warehouse COMPUTE_WH
+[0m14:47:30.555581 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:47:30.557581 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D338049BE0>]}
+[0m14:47:30.558582 [info ] [Thread-1 (]: 28 of 31 OK created sql table model DBT_.monthly_returns_per_category .......... [[32mSUCCESS 1[0m in 1.24s]
+[0m14:47:30.560390 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.monthly_returns_per_category
+[0m14:47:30.562001 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.sales_growth_per_category
+[0m14:47:30.562997 [info ] [Thread-1 (]: 29 of 31 START sql table model DBT_.sales_growth_per_category .................. [RUN]
+[0m14:47:30.564011 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.monthly_returns_per_category, now model.snowflake_instabee.sales_growth_per_category)
+[0m14:47:30.564011 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.sales_growth_per_category
+[0m14:47:30.569047 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.sales_growth_per_category"
+[0m14:47:30.570052 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.sales_growth_per_category
+[0m14:47:30.573104 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:47:30.574109 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+select current_warehouse() as warehouse
+[0m14:47:30.640266 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.065 seconds
+[0m14:47:30.642262 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:47:30.643751 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:30.772659 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.128 seconds
+[0m14:47:30.776712 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.sales_growth_per_category"
+[0m14:47:30.780653 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:47:30.781653 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+create or replace transient table PC_DBT_DB.DBT_.sales_growth_per_category
+         as
+        (SELECT
+    DATE_TRUNC('month', s.order_date) AS order_month,
+    p.product_category,
+    SUM(s.sales) AS monthly_sales,
+    LAG(SUM(s.sales)) OVER (PARTITION BY p.product_category ORDER BY DATE_TRUNC('month', s.order_date)) AS previous_month_sales,
+    (SUM(s.sales) - LAG(SUM(s.sales)) OVER (PARTITION BY p.product_category ORDER BY DATE_TRUNC('month', s.order_date))) /
+        NULLIF(LAG(SUM(s.sales)) OVER (PARTITION BY p.product_category ORDER BY DATE_TRUNC('month', s.order_date)), 0) AS growth_rate
+FROM PC_DBT_DB.DBT_.fact_sales s
+JOIN PC_DBT_DB.DBT_.dim_products p
+    ON s.product_id = p.product_id
+WHERE EXTRACT(YEAR FROM order_date) = 2019
+GROUP BY 1, 2
+        );
+[0m14:47:31.778111 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.996 seconds
+[0m14:47:31.781106 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_growth_per_category"
+[0m14:47:31.782106 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_growth_per_category: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_growth_per_category"} */
+use warehouse COMPUTE_WH
+[0m14:47:31.857333 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.075 seconds
+[0m14:47:31.860943 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D33804A630>]}
+[0m14:47:31.862245 [info ] [Thread-1 (]: 29 of 31 OK created sql table model DBT_.sales_growth_per_category ............. [[32mSUCCESS 1[0m in 1.30s]
+[0m14:47:31.863253 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.sales_growth_per_category
+[0m14:47:31.863253 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.sales_over_time
+[0m14:47:31.864260 [info ] [Thread-1 (]: 30 of 31 START sql table model DBT_.sales_over_time ............................ [RUN]
+[0m14:47:31.865281 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.sales_growth_per_category, now model.snowflake_instabee.sales_over_time)
+[0m14:47:31.866289 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.sales_over_time
+[0m14:47:31.870311 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.sales_over_time"
+[0m14:47:31.871316 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.sales_over_time
+[0m14:47:31.874698 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:47:31.875703 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+select current_warehouse() as warehouse
+[0m14:47:31.954551 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.078 seconds
+[0m14:47:31.957601 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:47:31.957601 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:32.033039 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.074 seconds
+[0m14:47:32.037042 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.sales_over_time"
+[0m14:47:32.042312 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:47:32.044333 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+create or replace transient table PC_DBT_DB.DBT_.sales_over_time
+         as
+        (WITH monthly_sales AS (
+  SELECT
+      DATE_TRUNC('month', order_date) AS order_month,
+      p.product_category,
+      SUM(s.sales) AS category_sales
+  FROM PC_DBT_DB.DBT_.fact_sales s
+  JOIN PC_DBT_DB.DBT_.dim_products p
+      ON s.product_id = p.product_id
+  WHERE EXTRACT(YEAR FROM order_date) = 2019
+  GROUP BY 1, 2
+),
+
+monthly_totals AS (
+  SELECT
+      order_month,
+      SUM(category_sales) AS total_monthly_sales
+  FROM monthly_sales
+  GROUP BY 1
+)
+
+SELECT
+    ms.order_month,
+    ms.product_category,
+    ms.category_sales,
+    ROUND(ms.category_sales * 100.0 / mt.total_monthly_sales, 2) AS sales_percentage
+FROM monthly_sales ms
+JOIN monthly_totals mt
+    ON ms.order_month = mt.order_month
+ORDER BY 1, 4 DESC
+        );
+[0m14:47:33.127517 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.083 seconds
+[0m14:47:33.132695 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.sales_over_time"
+[0m14:47:33.133710 [debug] [Thread-1 (]: On model.snowflake_instabee.sales_over_time: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.sales_over_time"} */
+use warehouse COMPUTE_WH
+[0m14:47:33.212551 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.077 seconds
+[0m14:47:33.214551 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D336FBFC20>]}
+[0m14:47:33.215551 [info ] [Thread-1 (]: 30 of 31 OK created sql table model DBT_.sales_over_time ....................... [[32mSUCCESS 1[0m in 1.35s]
+[0m14:47:33.216551 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.sales_over_time
+[0m14:47:33.217552 [debug] [Thread-1 (]: Began running node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:47:33.217552 [info ] [Thread-1 (]: 31 of 31 START sql table model DBT_.top_selling_states_and_regions ............. [RUN]
+[0m14:47:33.218850 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.snowflake_instabee.sales_over_time, now model.snowflake_instabee.top_selling_states_and_regions)
+[0m14:47:33.219850 [debug] [Thread-1 (]: Began compiling node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:47:33.227006 [debug] [Thread-1 (]: Writing injected SQL for node "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:47:33.305418 [debug] [Thread-1 (]: Began executing node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:47:33.310424 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:47:33.311235 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+select current_warehouse() as warehouse
+[0m14:47:33.384326 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.072 seconds
+[0m14:47:33.386325 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:47:33.387325 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+use warehouse pc_dbt_wh_large
+[0m14:47:33.465447 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.078 seconds
+[0m14:47:33.468497 [debug] [Thread-1 (]: Writing runtime sql for node "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:47:33.472526 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:47:33.473527 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+create or replace transient table PC_DBT_DB.DBT_.top_selling_states_and_regions
+         as
+        (WITH monthly_region_sales AS(SELECT
+DATE_TRUNC('month', order_date) AS order_month,
+    s.region,
+    s.state,
+    d.regional_manager,
+    SUM(s.sales) AS region_sales
+FROM PC_DBT_DB.DBT_.fact_sales s
+LEFT JOIN PC_DBT_DB.DBT_.dim_regions d
+    ON s.region = d.region AND s.state = d.state
+WHERE EXTRACT(YEAR FROM s.order_date) = 2019
+GROUP BY 1, 2, 3,4
+ORDER BY region_sales DESC),
+
+monthly_totals AS (
+  SELECT
+      order_month,
+      SUM(region_sales) AS total_monthly_sales
+  FROM monthly_region_sales
+  GROUP BY 1
+),
+
+ranked_regions AS (
+  SELECT
+      mrs.*,
+      mt.total_monthly_sales,
+      ROUND(mrs.region_sales * 100.0 / mt.total_monthly_sales, 2) AS sales_percentage,
+      ROW_NUMBER() OVER (PARTITION BY mrs.order_month ORDER BY mrs.region_sales DESC) AS region_rank
+  FROM monthly_region_sales mrs
+  JOIN monthly_totals mt
+      ON mrs.order_month = mt.order_month
+  WHERE mrs.order_month IS NOT NULL
+)
+
+SELECT
+    order_month,
+    region AS top_region,
+    state AS top_state,
+    regional_manager,
+    region_sales,
+    sales_percentage
+FROM ranked_regions
+WHERE region_rank = 1
+ORDER BY order_month DESC
+        );
+[0m14:47:34.475661 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.001 seconds
+[0m14:47:34.478344 [debug] [Thread-1 (]: Using snowflake connection "model.snowflake_instabee.top_selling_states_and_regions"
+[0m14:47:34.479362 [debug] [Thread-1 (]: On model.snowflake_instabee.top_selling_states_and_regions: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "instabee", "target_name": "dev", "node_id": "model.snowflake_instabee.top_selling_states_and_regions"} */
+use warehouse COMPUTE_WH
+[0m14:47:34.558948 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.079 seconds
+[0m14:47:34.562499 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5dfa87a8-fdb8-4978-858b-6c1cb9862838', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3380066C0>]}
+[0m14:47:34.563518 [info ] [Thread-1 (]: 31 of 31 OK created sql table model DBT_.top_selling_states_and_regions ........ [[32mSUCCESS 1[0m in 1.34s]
+[0m14:47:34.564537 [debug] [Thread-1 (]: Finished running node model.snowflake_instabee.top_selling_states_and_regions
+[0m14:47:34.565555 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:47:34.566574 [debug] [MainThread]: Connection 'list_PC_DBT_DB' was left open.
+[0m14:47:34.567594 [debug] [MainThread]: On list_PC_DBT_DB: Close
+[0m14:47:34.677808 [debug] [MainThread]: Connection 'list_PC_DBT_DB_DBT_' was left open.
+[0m14:47:34.677808 [debug] [MainThread]: On list_PC_DBT_DB_DBT_: Close
+[0m14:47:34.833510 [debug] [MainThread]: Connection 'model.snowflake_instabee.top_selling_states_and_regions' was left open.
+[0m14:47:34.834516 [debug] [MainThread]: On model.snowflake_instabee.top_selling_states_and_regions: Close
+[0m14:47:34.960223 [info ] [MainThread]: 
+[0m14:47:34.960223 [info ] [MainThread]: Finished running 10 table models, 17 data tests, 4 view models in 0 hours 0 minutes and 23.85 seconds (23.85s).
+[0m14:47:34.969002 [debug] [MainThread]: Command end result
+[0m14:47:35.015942 [debug] [MainThread]: Wrote artifact WritableManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\manifest.json
+[0m14:47:35.019135 [debug] [MainThread]: Wrote artifact SemanticManifest to E:\desk\onedrive\Desktop\snowflake_instabee\target\semantic_manifest.json
+[0m14:47:35.030251 [debug] [MainThread]: Wrote artifact RunExecutionResult to E:\desk\onedrive\Desktop\snowflake_instabee\target\run_results.json
+[0m14:47:35.030251 [info ] [MainThread]: 
+[0m14:47:35.031525 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:47:35.031525 [info ] [MainThread]: 
+[0m14:47:35.032569 [info ] [MainThread]: Done. PASS=31 WARN=0 ERROR=0 SKIP=0 TOTAL=31
+[0m14:47:35.032569 [debug] [MainThread]: Command `dbt build` succeeded at 14:47:35.032569 after 29.66 seconds
+[0m14:47:35.033966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32D797BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32ABCF3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D32ABCEBA0>]}
+[0m14:47:35.033966 [debug] [MainThread]: Flushing usage events
+[0m14:47:35.683045 [debug] [MainThread]: An error was encountered while trying to flush usage events

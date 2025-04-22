@@ -56,13 +56,18 @@ jobs:
           rm -rf ./dbt_packages
           rm -rf ~/.dbt/target
 
-      - name: Run dbt commands
-        run: |
-          # Install deps and verify
-          dbt deps
-          echo "dbt_utils macros:"
-          ls -la ./dbt_packages/dbt_utils/macros/ || echo "Macros not found"
-          
-          # Execute with debug
-          dbt debug
-          dbt build --fail-fast
+	- name: Run dbt commands
+	  run: |
+	    # Clean previous installations
+	    dbt clean
+    
+	    # Install dependencies
+     	    dbt deps
+    
+ 	   # Verify dbt_utils installation
+	    echo "Verifying dbt_utils macros:"
+	    ls -la ./dbt_packages/dbt_utils/macros/sql/generate_surrogate_key.sql || echo "dbt_utils not properly installed"
+    
+	    # Run dbt commands
+ 	   dbt debug
+ 	   dbt build --fail-fast

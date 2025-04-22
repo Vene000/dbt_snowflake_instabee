@@ -7,7 +7,7 @@ with source as (
 renamed as (
 
     select 
-{{ generate_surrogate_key(['ORDER_ID', 'PRODUCT_ID', 'ROW_ID']) }} as ORDER_LINE_ID,
+{{ dbt_utils.generate_surrogate_key(['ORDER_ID', 'PRODUCT_ID', 'ROW_ID']) }} as ORDER_LINE_ID,
 ROW_ID,
 ORDER_ID,	
 ORDERDATE AS ORDER_DATE,
