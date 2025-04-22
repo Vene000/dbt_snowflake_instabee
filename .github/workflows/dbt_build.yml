@@ -43,7 +43,14 @@ jobs:
                 threads: 4
           EOF
 
-      - name: Run dbt
-        run: |
-          dbt deps
-          dbt build --fail-fast
+      - name: Run dbt commands
+  run: |
+    # Clean previous installations
+    rm -rf ./dbt_packages
+    
+    # Install dependencies (including dbt_utils)
+    dbt deps
+    
+    # Run with debug info
+    dbt debug
+    dbt build --fail-fast

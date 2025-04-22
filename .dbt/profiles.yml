@@ -1,0 +1,12 @@
+instabee:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: XU17144.europe-west4.gcp
+      user: "VENNALLAA"
+      password: "Vennalla@00000"
+      role: "ACCOUNTADMIN"
+      warehouse: "COMPUTE_WH"
+      database: "PC_DBT_DB"
+      schema: "DBT_"
