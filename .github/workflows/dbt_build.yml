@@ -21,22 +21,17 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install dbt dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install dbt[snowflake]
+          pip install dbt-snowflake
 
-      - name: Set up Snowflake credentials (direct from environment variables)
+      - name: Set up DBT profile
         run: |
-          echo "SNOWFLAKE_ACCOUNT=XU17144.europe-west4.gcp" >> $GITHUB_ENV
-          echo "SNOWFLAKE_USER=VENNALLAA" >> $GITHUB_ENV
-          echo "SNOWFLAKE_PASSWORD=Vennalla@00000" >> $GITHUB_ENV
-          echo "SNOWFLAKE_ROLE=ACCOUNTADMIN" >> $GITHUB_ENV
-          echo "SNOWFLAKE_DATABASE=PC_DBT_DB" >> $GITHUB_ENV
-          echo "SNOWFLAKE_WAREHOUSE=COMPUTE_WH" >> $GITHUB_ENV
-          echo "SNOWFLAKE_SCHEMA=DBT_" >> $GITHUB_ENV
+          mkdir -p ~/.dbt
+          cp .dbt/profiles.yml ~/.dbt/profiles.yml
 
-      - name: Run dbt build
+      - name: Run dbt commands
         run: |
-          dbt run
-          dbt test
+          dbt deps
+          dbt build
