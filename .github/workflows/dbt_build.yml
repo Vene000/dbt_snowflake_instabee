@@ -12,15 +12,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # ← "uses" for actions
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install pinned dbt versions
-        run: |
+      - name: Install dbt dependencies
+        run: |  # ← "run" for shell commands
           python -m pip install --upgrade pip
           pip install dbt-core==1.9.4 dbt-snowflake==1.9.2
 
@@ -40,17 +40,11 @@ jobs:
                 warehouse: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
                 database: ${{ secrets.SNOWFLAKE_DATABASE }}
                 schema: ${{ secrets.SNOWFLAKE_SCHEMA }}
-                threads: 4
           EOF
 
       - name: Run dbt commands
-  run: |
-    # Clean previous installations
-    rm -rf ./dbt_packages
-    
-    # Install dependencies (including dbt_utils)
-    dbt deps
-    
-    # Run with debug info
-    dbt debug
-    dbt build --fail-fast
+        run: |
+          rm -rf ./dbt_packages
+          dbt deps
+          dbt debug
+          dbt build --fail-fast
