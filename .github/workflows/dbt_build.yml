@@ -26,15 +26,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install dbt[snowflake]
 
-      - name: Set up Snowflake credentials
+      - name: Set up Snowflake credentials (direct from environment variables)
         run: |
-          echo "SNOWFLAKE_ACCOUNT=${{ secrets.SNOWFLAKE_ACCOUNT }}" >> $GITHUB_ENV
-          echo "SNOWFLAKE_USER=${{ secrets.SNOWFLAKE_USER }}" >> $GITHUB_ENV
-          echo "SNOWFLAKE_PASSWORD=${{ secrets.SNOWFLAKE_PASSWORD }}" >> $GITHUB_ENV
-          echo "SNOWFLAKE_ROLE=${{ secrets.SNOWFLAKE_ROLE }}" >> $GITHUB_ENV
-          echo "SNOWFLAKE_DATABASE=${{ secrets.SNOWFLAKE_DATABASE }}" >> $GITHUB_ENV
-          echo "SNOWFLAKE_WAREHOUSE=${{ secrets.SNOWFLAKE_WAREHOUSE }}" >> $GITHUB_ENV
-          echo "SNOWFLAKE_SCHEMA=${{ secrets.SNOWFLAKE_SCHEMA }}" >> $GITHUB_ENV
+          echo "SNOWFLAKE_ACCOUNT=XU17144.europe-west4.gcp" >> $GITHUB_ENV
+          echo "SNOWFLAKE_USER=VENNALLAA" >> $GITHUB_ENV
+          echo "SNOWFLAKE_PASSWORD=Vennalla@00000" >> $GITHUB_ENV
+          echo "SNOWFLAKE_ROLE=ACCOUNTADMIN" >> $GITHUB_ENV
+          echo "SNOWFLAKE_DATABASE=PC_DBT_DB" >> $GITHUB_ENV
+          echo "SNOWFLAKE_WAREHOUSE=COMPUTE_WH" >> $GITHUB_ENV
+          echo "SNOWFLAKE_SCHEMA=DBT_" >> $GITHUB_ENV
 
       - name: Run dbt build
         run: |
